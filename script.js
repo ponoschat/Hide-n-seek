@@ -309,7 +309,7 @@ function showJoinInput() {
 
 // Start the game
 function startGame() {
-    if (Object.keys(players).length < 2) {
+    if (Object.keys(players).length < 1) {
         alert('Need at least 2 players to start');
         return;
     }
